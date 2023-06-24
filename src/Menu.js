@@ -9,7 +9,8 @@ const loadMenu = () => {
 
   const para1 = document.createElement('p');
   para1.textContent = "Below is a lovely list of Welcome Home \
-  Kitchen's homemade meals."
+  Kitchen's homemade meals.";
+  para1.style.fontWeight = 'bold';
 
   const para2 = document.createElement('p');
   para2.textContent = 'Lorem sed risus ultricies tristique nulla aliquet enim. Cursus vitae congue mauris rhoncus aenean vel. Sit amet consectetur adipiscing elit ut aliquam purus sit. Suscipit adipiscing bibendum est ultricies integer quis auctor elit sed. Metus vulputate eu scelerisque felis imperdiet proin fermentum leo vel. Facilisi cras fermentum odio eu feugiat pretium nibh ipsum consequat. Sit amet tellus cras adipiscing enim eu.';

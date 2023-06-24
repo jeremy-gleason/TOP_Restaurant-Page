@@ -9,7 +9,8 @@ const loadHome = () => {
 
   const para1 = document.createElement('p');
   para1.textContent = 'At Welcome Home Kitchen we strive to \
-  provide warm home-cooked meals everyday.'
+  provide warm home-cooked meals everyday.';
+  para1.style.fontWeight = 'bold';
 
   const para2 = document.createElement('p');
   para2.textContent = 'Lorem ipsum dolor sit amet, consectetur \
