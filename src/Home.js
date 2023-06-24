@@ -1,4 +1,4 @@
-const loadPage = () => {
+const loadHome = () => {
   const contentDiv = document.querySelector('#content');
 
   const header = document.createElement('h1');
@@ -27,4 +27,4 @@ const loadPage = () => {
   contentDiv.appendChild(para2);
 }
 
-export { loadPage };
+export { loadHome };

@@ -1,0 +1,15 @@
+ul {
+  list-style-type: none;
+}
+
+button {
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.active {
+  cursor: auto;
+  background-color: #d5dbe3;
+  font-weight: bold;
+}
